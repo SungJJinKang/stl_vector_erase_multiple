@@ -86,7 +86,8 @@ third item is moved to second position
 Move Assignment opeartor is called 279 times!!!!     
 Everytime erase a item, Items after that item is moved a position.       
 If you have not well designed move assignment opeartor, This reallocation will be disaster.         
-( You can use linked list, But It's not good for cache friendly )         
+( You can use linked list, But It's not good for cache friendly )      
+( You can do [swap and pop_back](https://github.com/SungJJinKang/vector_swap_popback), But You can't use this If you want to retain ordering )        
 
 
 This repository is made for solving this problem.     
