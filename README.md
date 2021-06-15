@@ -1,7 +1,8 @@
 # stl_vector_erase_multiple
-std::vector.erase_multiple
 
-If you want to erase multiple items in std::vector, How do you do that?            
+## Motivation
+
+If you want to erase multiple items in std::vector, How do you do that?       
 Like this?     
 
 ```c++
@@ -85,6 +86,7 @@ third item is moved to second position
 Move Assignment opeartor is called 279 times!!!!     
 Everytime erase a item, Items after that item is moved a position.       
 If you have not well designed move assignment opeartor, This reallocation will be disaster.         
+( You can use linked list, But It's not good for cache friendly )         
 
 
 This repository is made for solving this problem.     
